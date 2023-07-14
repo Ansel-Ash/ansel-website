@@ -1,0 +1,247 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="bootstrap.css" type="style/css" />
+    <title>Net Ninja Pro the - Book</title>
+    <style>
+      h3 {
+        color: #2a5a78;
+        background-color: #ff1111;
+      }
+      section {
+        background-color: #afafaf;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="inline-text-formatting">
+      <!-- Heading Tags -->
+      <!-- <h1>Net Ninja Pro</h1> -->
+      <h1>Bootstrap 5 Tutorial</h1>
+      <h2>This is an h2</h2>
+      <h3>This is an h3</h3>
+
+      <!-- You can use class attribute to change headings  ...The '()' are characters from h1-h6 -->
+      <h2>class="()"class attribute value</h2>
+      <h2 class="h6">This is an h2 but will appear as h6</h2>
+
+      <!-- Display Headings -->
+      <!-- This display-1 classes will display the headings but not in bold ....The '()' are characters from h1-h6 -->
+      <h2>display-() class attribute value</h2>
+      <h1 class="display-1">display 1 headings</h1>
+      <h1 class="display-4">display 4 headings</h1>
+      <h1 class="display-6">display 6 headings</h1>
+      <!-- The display-2 classes can also be applied to anyother element -->
+      <p class="display-3">
+        p tag can also use the display-3 class. Can also use 1 or 2 or 4down to
+        6
+      </p>
+
+      <!-- Lead Text and alignment -->
+      <h2>lead class attribute value</h2>
+      <small>this is a small text</small>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+        consectetur officia, quis ipsa eos totam distinctio tempora, inventore
+        fugiat repellendus accusamus quod. Repellat reiciendis cupiditate neque
+        sit, perferendis enim aspernatur!
+      </p>
+      <!-- The lead class attribute is makes the element less bolder -->
+      <p class="lead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo est
+        deleniti labore commodi culpa fuga sunt omnis minus? Placeat adipisci
+        provident nihil sint quasi omnis illo illum itaque alias?
+      </p>
+
+      <!-- Alignment -->
+      <!-- This will align to the right -->
+      <h2>alignment class attribute value</h2>
+      <p class="lead text-center">center</p>
+      <p class="lead text-end">end</p>
+      <p class="lead text-start">start</p>
+
+      <!-- Text Decoration & Font weight -->
+      <h2>different text-decoration class attribute value</h2>
+      <p class="text-decoration-underline">this is an underlined text</p>
+      <p class="text-decoration-line-through">this is a line through text</p>
+      <p class="fw-bold">this is a bold text</p>
+
+
+      <!-- Text colors -->
+      <!-- these are the main types of color we have -->
+      <h2>text-colors class attribute value</h2>
+      <p class="text-primary">theme primary color</p>
+      <p class="text-secondary">theme secondary color</p>
+      <p class="text-info">theme info color</p>
+      <p class="text-warning">theme warning color</p>
+      <p class="text-success">theme success color</p>
+      <p class="text-danger">theme danger color</p>
+      <p class="text-muted">theme muted color</p>
+
+
+      <!-- bg Colors -->
+      <!-- This sets the background-color using the bg class value -->
+      <h2>text-bg colors class attribute value</h2>
+      <p class="text-white bg-primary">
+        white text on primary bg (background-color)
+      </p>
+      <p class="text-white bg-secondary">
+        white text on secondary bg (background-color)
+      </p>
+      <p class="text-light bg-danger">
+        white text on danger bg (background-color)
+      </p>
+      <p class="lead text-white bg-black text-center text-decoration-underline">
+        Hello world
+      </p>
+    </section>
+
+    <section class="buttons">
+
+      <!-- basic buttons -->
+      <h2>Buttons</h2>
+      <button class="btn btn-primary">primary button</button>
+      <button class="btn btn-secondary">secondary button</button>
+
+      <!-- anchor tag as buttons -->
+      <h2>Link as buttons</h2>
+
+      <a href="#" class="btn btn-info">info anchor tag</a>
+      <a href="#" class="btn btn-success">success anchor tag</a>
+
+      <!-- button sizes -->
+      <h2>Button Sizes</h2>
+
+      <button class="btn btn-sm btn-warning">small warning button</button>
+      <button class="btn btn-lg btn-danger">large danger button</button>
+
+      <!-- outlined styles -->
+      <h2>Button Styles</h2>
+
+      <button class="btn btn-outline-primary">outlined primary button</button>
+      <button class="btn btn-lg btn-outline-secondary">
+        large outlined secondary button
+      </button>
+
+
+      <!-- button groups -->
+      <h2>Button Groups</h2>
+
+      <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+      </div>
+
+      <div class="btn-group">
+        <p class="btn btn-light">Light</p>
+        <p class="btn btn-dark">dark</p>
+        <a href="#" class="btn btn-light">Light</a>
+      </div>
+
+      <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+      </div>
+    </section>
+
+    <section class="utilities">
+      <h2>Margin and padding</h2>
+
+      <!-- margin and padding -->
+      <div class="bg-primary m-1 p-1">small marging and padding</div>
+      <div class="bg-primary m-5 p-5">large marging and padding</div>
+
+      <!-- margin from top to bottom and padding from left to right -->
+      <div class="bg-primary my-3 px-5">
+        margin in y direction(top to bottom), padding x direction (left to
+        right)
+      </div>
+
+      <!-- adding to all direction we use these properties {mt-margin top, mb-margin botoom, ms-margin start, me-margin end} 
+      same applies to padding-->
+      <div class="bg-primary mt-3 mb-3 ms-2 me-2 ps-2 pe-2 pb-2 pt-2">
+        margin & padding for each direction
+      </div>
+
+
+      <!-- borders -->
+      <h2>Borders</h2>
+      <div class="m-2 p-2 border">default border</div>
+      <div class="m-2 p-2 border-top border-end">individual borders</div>
+      <div class="m-2 p-2 border-start border-success">border success color at start</div>
+      <div class="m-2 p-2 border-start border-danger border-5">thicker border</div>
+      <div class="m-2 p-2 rounded border border-5">rounded border</div>
+      <div class="m-2 p-2 rounded-pill border border-5">rounded-pill border</div>
+
+      <!-- box shadow -->
+      <div class="m-2 p-2 shadow-sm">small shadow</div>
+      <div class="m-2 p-2 shadow">medium shadow</div>
+      <div class="m-2 p-2 shadow-lg">large shadow</div>
+
+      <!-- font-weight -->
+      <p class="fw-bold">bold text</p>
+      <p class="fw-bolder">bolder text</p>
+      <p>bold text</p>
+      <p class="fw-light">light text</p>
+      <p class="fst-italic">italic text</p>
+      <p class="fst-italic fw-light">italic light text</p>
+
+    </section>
+
+
+      <section class="containers">
+        <h2>Containers</h2>
+        <!-- This container class will have a new max width centered in the page 
+        according to the screen size-->
+        <div class="container my-5">
+          <h2>Normal container</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptas dolorem! Architecto, 
+            ratione rem. Ducimus suscipit quis excepturi unde accusamus consectetur, 
+            cupiditate inventore possimus dolore dolorum placeat! Unde, eligendi necessitatibus.</p>
+        </div>
+
+        <!-- This class will have a 100% width irrespective of the screen size -->
+        <div class="container-fluid">
+          <h2>Fluid container</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptas dolorem! Architecto, 
+            ratione rem. Ducimus suscipit quis excepturi unde accusamus consectetur, 
+            cupiditate inventore possimus dolore dolorum placeat! Unde, eligendi necessitatibus.</p>
+        </div>
+
+        <!-- This class will have a 100% until it reaches a large screen size -->
+        <div class="container-lg my-5">
+          <h2>100% widthn until large screen, then center container automatically</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptas dolorem! Architecto, 
+            ratione rem. Ducimus suscipit quis excepturi unde accusamus consectetur, 
+            cupiditate inventore possimus dolore dolorum placeat! Unde, eligendi necessitatibus.</p>
+        </div>
+
+        <!-- This class will have a  100% until xl screen sizes -->
+        <div class="container-xl">
+          <h2>100% until extra large screen sizes</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptas dolorem! Architecto, 
+            ratione rem. Ducimus suscipit quis excepturi unde accusamus consectetur, 
+            cupiditate inventore possimus dolore dolorum placeat! Unde, eligendi necessitatibus.</p>
+        </div>
+      </section>
+
+<section>
+  <h1>End</h1>
+</section>
+     
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
